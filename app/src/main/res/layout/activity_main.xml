@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="rusdelphi.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_link1"
+        android:layout_alignParentTop="true"
+        android:clickable="true"
+        android:textColor="#0000FF"
+        android:onClick="blogView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/tv_link2"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/tv_link1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/tv_link3"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/tv_link2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="http://rusdelphi.com/tag/android/"
+        android:id="@+id/tv_link4"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/tv_link3"
+        android:layout_centerHorizontal="true"
+        android:autoLink="web" />
+
+</RelativeLayout>
